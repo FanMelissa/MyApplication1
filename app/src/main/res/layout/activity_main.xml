@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.student.myapplication.MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_a"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhap a"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhap b"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhap c"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/bt_gui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gui" />
+
+    <TextView
+        android:id="@+id/tv_ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ket Qua"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
